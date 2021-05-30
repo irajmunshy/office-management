@@ -20,9 +20,6 @@ const Sidebar = ({handleSidebar}) => {
                     <li onClick={() => handleSidebar('fee')}>
                         <span>Fee</span>
                     </li>
-                    <li onClick={() => handleSidebar('notice')}>
-                        <span>Notice</span>
-                    </li>
             </ul>
         </div>
     );

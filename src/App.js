@@ -4,8 +4,10 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import About from "./components/About/About";
 import Admin from "./components/Admin/Admin";
 import Home from "./components/Home/Home";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -17,7 +19,13 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
-        <Route path="/admin">
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/admin/:name">
           <Admin />
         </Route>
       </Switch>

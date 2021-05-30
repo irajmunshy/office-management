@@ -1,0 +1,49 @@
+.admin-area a {
+    color: #fff;
+    text-decoration: none;
+}
+.admin-area .logout {
+    background: #19B3D3;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////// */
+
+.employee-area {
+    margin: 80px 70px 0 70px;
+    border: 2px solid #69AEFF;
+}
+.employee-area h4 {
+    background: #69AEFF;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.employee-area .table-head p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.employee-area .table-head {
+    border-bottom: 3px solid #DDDDDD;
+}
+.employee-area .table-info {
+    border-bottom: 1px solid #DDDDDD;
+}
+.employee-area .table-info:last-child {
+    border-bottom: none;
+}
+.employee-area .table-info p {
+    padding-top: 10px;
+}

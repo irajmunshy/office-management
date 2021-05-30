@@ -1,0 +1,35 @@
+.about-main img {
+    height: 600px;
+    width: 100%;
+}
+.about-info {
+    background: #DDD;
+    overflow-x: hidden;
+    padding: 100px 0;
+}
+.about-info .about-inner {
+    margin-top: 140px;    
+}
+.about-info .about-inner h2 {
+    font-size: 50px;
+    font-weight: 600;    
+}
+.about-info .about-inner p {
+    font-size: 18px;
+}
+.about-footer {
+    padding: 100px 0;
+}
+.about-footer img {
+    box-shadow: 0 0 15px 1px gray;
+}
+.about-footer .about-inner {
+    margin-top: 120px;
+}
+.about-footer .about-inner a {
+    background: #0A9FDA;
+    padding: 10px 34px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}

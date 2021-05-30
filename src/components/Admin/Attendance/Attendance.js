@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 
 const Attendance = (props) => {
     const {employeeDetails} = props;
+    let todayDate = new Date().toISOString().slice(0, 10);
 
     return (
         <div className="attendance-area">
@@ -25,6 +26,7 @@ const Attendance = (props) => {
                 )
             }
 
+            <p className="date">Current Date: {todayDate}</p>
         </div>
     );
 };

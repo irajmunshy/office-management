@@ -1,7 +1,8 @@
 .sidebar-detail {
     background: #2F323A;
-    height: 100vh;
+    height: 89vh;
     color: #fff;
+    margin-top: -1px;
     text-align: center;
 }
 .sidebar-detail li {
